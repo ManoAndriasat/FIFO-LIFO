@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vWjQKJWkmnJF2DCsx4b8QB4r3dtoCe72nf+qkalekqNpkz1utY0MSYkHE6LZUWco+hST/d/MYBEwSOrC7BJhPA==",
+  "success": true,
+  "projectFilePath": "E:\\Cours\\Projet S5-S6\\FIFO-LIFO\\Stock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mano\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mano\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\Mano\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

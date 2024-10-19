@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Entrée de stock</title>
+    <link rel="stylesheet" href="~/assets/fontawesome-5/css/all.min.css">
+    <link rel="stylesheet" href="~/assets/fontawesome-5/css/all.css">
+    <link rel="stylesheet" href="~/assets/style/title.css">
+    <link rel="stylesheet" href="~/assets/dist/css/bootstrap.min.css">
+</head>
+<style>
+label {
+    float: left;
+}
+body{
+    font-family : monospace;
+}
+.titre{
+    margin: 36px;font-size: 16px; font-family: monospace;
+    color : white;
+    background-color: black;
+    padding : 8px;
+    border-radius: 5px;
+}
+</style>
+<body style="  background-color: #eaeaea;">
+
+        @if(ViewBag.error != null)
+        {
+            <script>
+                // Affiche une alerte avec le message d'erreur
+                alert('@ViewBag.error');
+            </script>
+        }
+
+    <div class="container">
+    <br style="margin-top:10px">
+        <center>
+            <p class="col-sm-8 secndary titre" style="">Entrée de stock</p>
+            <form action="/EntrerStock/Insert" method="post" class="needs-validation col-sm-8" novalidate>
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="categorie" class="form-label">Article</label>
+                        <select class="form-select" name="categorie" required>
+                            @foreach (var article in ViewBag.ListArticle)
+                            {
+                                <option value="@article.Categorie">@article.Nom</option>
+                            }
+                        </select>
+                   </div>
+
+                    <div class="col-sm-6">
+                        <label for="id_magasin" class="form-label">id du magasin</label>
+                        <select class="form-select" name="id_magasin" required>
+                            @foreach (var magasin in ViewBag.ListMagasin)
+                            {
+                                <option value="@magasin.Id_magasin">@magasin.Id_magasin</option>
+                            }
+                        </select>
+                   </div>
+
+
+                    <div class="col-sm-6">
+                        <label for="date_entrer" class="form-label">Date d'entrée</label>
+                        <input type="date" class="form-control" name="date_entrer" required>
+                   </div>
+
+
+                    <div class="col-sm-6">
+                        <label for="quantite" class="form-label">Quantité</label>
+                        <input type="number" class="form-control" name="quantite" required>
+                   </div>
+               
+                    <div class="col-sm-6">
+                        <label for="prix_unitaire" class="form-label">Prix unitaire</label>
+                        <input type="number" class="form-control" name="prix_unitaire" required>
+                   </div>
+                </div>
+                    <br style="margin-top:20px">
+                <center>
+                    <input type="submit" class="btn btn-success btn-lg col-sm-12" style="background-color:green;color:white;font-size:16px" border="0" value="Insérer l'entrée de stock">
+                </center>
+            </form>
+        </center>
+    </div>
+    @if(ViewBag.error != null)
+    {
+        <script>
+            alert('@Html.Raw(ViewBag.error)');
+        </script>
+    }
+
+</body>
+</html>

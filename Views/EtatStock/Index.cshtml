@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etat Stock Global</title>
+    <link rel="stylesheet" href="~/assets/dist/css/bootstrap.min.css">
+</head>
+<body>
+@if(ViewBag.error != null)
+{
+    <script>
+        alert('@Html.Raw(ViewBag.error)');
+    </script>
+}
+    <div class="container mt-5">
+        <h2>Etat Stock Global</h2>
+
+        <p>Check <a href="/EtatStock/DateNow" class="btn btn-primary">Etat Now</a></p>
+                <br>
+        <div class="form-group">
+            <form action="/EtatStock/ChangeDate" name="search-form">    
+                <span>Date début</span> <input type="datetime-local" name="firstDate">   
+                <span>Date fin</span> <input type="datetime-local" name="lastDate">  
+                <input type="submit"  value="valider" class="btn btn-primary">
+            </form>            
+        </div>
+                <br>
+        <form method="get" action="/EtatStock/ChangeMagasin">
+            <div class="form-group">
+                <label for="magasinFilter">Select Magasin:</label>
+                <select id="magasinFilter" name="magasin">
+                    <option value="1' or '1'='1">All</option>
+                    @foreach (var magasin in ViewBag.ListMagasin)
+                    {
+                        <option value="@magasin.Id_magasin">@magasin.Nom</option>
+                    }
+                </select>
+            <button type="submit" class="btn btn-primary">Filter</button>
+            </div>
+        </form>
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>ID Article</th>
+                    <th>Magasin</th>
+                    <th>Quantite Initial</th>
+                    <th>Quantite Final</th>
+                    <th>Prix Unitaire</th>
+                    <th>TOTAL : @ViewBag.Vola</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var etatStock in ViewBag.EtatStock)
+                {
+                    <tr>
+                        <td>@etatStock.Id_article</td>
+                        <td>@etatStock.Id_magasin</td>
+                        <td>@etatStock.Quantite_initial</td>
+                        <td>@etatStock.Quantite_final</td>
+                        <td>@etatStock.Prix_unitaire</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

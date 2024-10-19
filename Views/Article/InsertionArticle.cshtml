@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insertion d'article</title>
+    <link rel="stylesheet" href="~/assets/fontawesome-5/css/all.min.css">
+    <link rel="stylesheet" href="~/assets/fontawesome-5/css/all.css">
+    <link rel="stylesheet" href="~/assets/style/title.css">
+    <link rel="stylesheet" href="~/assets/dist/css/bootstrap.min.css">
+</head>
+<style>
+label {
+    float: left;
+}
+body{
+    font-family : monospace;
+}
+.titre{
+    margin: 36px;font-size: 16px;
+    color : white;
+    background-color: black;
+    padding : 8px;
+    border-radius: 5px;
+}
+
+</style>
+<body style="  background-color: #eaeaea;">
+    <div class="container">
+            <br style="margin-top:10px">
+        <center>
+            <p class="col-sm-8 secndary titre">Insertion Article</p>
+            <form action="/Article/Insert" method="post" class="needs-validation col-sm-8" novalidate>
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="categorie" class="form-label">Catégorie de l'article</label>
+                        <input type="text" class="form-control" id="Categorie" name="categorie" required>
+                        <div class="invalid-feedback">
+                            Veuillez insérer une catégorie d'article.
+                        </div>
+                    </div>
+                    <!-- Ajout du champ unite dans le formulaire -->
+                    <div class="col-sm-6">
+                        <label for="unite" class="form-label">Unité</label>
+                        <select class="form-control" id="Unite" name="unite" required>
+                            <option value="kg">kg</option>
+                            <option value="litre">litre</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Veuillez entrer une unité valide.
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="nom" class="form-label">Nom de l'article</label>
+                        <input type="text" class="form-control" id="Nom" name="nom" required>
+                        <div class="invalid-feedback">
+                            Veuillez entrer un nom d'article valide.
+                        </div>
+                    </div>
+                   <div class="col-sm-6">
+                        <label for="etat" class="form-label">Etat</label>
+                        <select class="form-select" id="Etat" name="etat" required>
+                            <option value="lifo">LIFO</option>
+                            <option value="FIFO">FIFO</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Veuillez choisir un état valide.
+                        </div>
+                    </div>
+
+                </div>
+                 <br style="margin-top:20px">
+                <center>
+                    <input type="submit" class="btn btn-success btn-lg col-sm-12" style="background-color:green;color:white;font-size:16px" border="0" value="Insérer l'entrée de stock">
+                </center>
+            </form>
+        </center>
+    </div>
+</body>
+</html>

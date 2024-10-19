@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Stock
+build_property.RootNamespace = Stock
+build_property.ProjectDir = E:\Cours\Projet S5-S6\FIFO-LIFO\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Cours\Projet S5-S6\FIFO-LIFO
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Article/InsertionArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxJbnNlcnRpb25BcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Brouillard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvdWlsbGFyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Brouillard/ListeBrouillard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvdWlsbGFyZFxMaXN0ZUJyb3VpbGxhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/EntrerStock/InsertionEntrer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVyU3RvY2tcSW5zZXJ0aW9uRW50cmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Entrer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/EtatStock/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXRhdFN0b2NrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/SortieStock/InsertionSortie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29ydGllU3RvY2tcSW5zZXJ0aW9uU29ydGllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Cours/Projet S5-S6/FIFO-LIFO/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-msk9pet0hh

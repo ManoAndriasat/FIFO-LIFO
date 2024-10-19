@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Liste Brouillard</title>
+    <link rel="stylesheet" href="~/assets/dist/css/bootstrap.min.css">
+</head>
+<body >
+@if(ViewBag.error != null)
+{
+    <script>
+        alert('@Html.Raw(ViewBag.error)');
+    </script>
+}
+    <div class="container mt-5">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Article</th>
+                    <th>Date Mouvement</th>
+                    <th>Magasin</th>
+                    <th>Quantite</th>
+                    <th>Unite</th>
+                    <th>Date validation</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var brouillard in ViewBag.ListeBrouillard)
+                {
+                    <tr>
+                        <form method="post" action="/Validation/Valider" style="display:inline;">
+                        <input style="border:none" type="hidden" name="id_mouvement" value="@brouillard.Id_mouvement">
+                        <td><input style="border:none" type="text" name="id_article" value="@brouillard.Id_article"></td>
+                        <td><input style="border:none" type="text" name="date_mouvement" value="@brouillard.Date_mouvement"></td>
+                        <td><input style="border:none" type="text" name="id_magasin" value="@brouillard.Id_magasin"></td>
+                        <td><input style="border:none" type="number" name="quantite" value="@brouillard.Quantite"></td>
+                        <td><input style="border:none" type="datetime-local" name="date_validation"></td>
+                        <td><button type="submit" class="btn btn-success">Valider</button></td>
+                        <td><a href="/Validation/Refuser?id_mouvement=@brouillard.Id_mouvement" class="btn btn-danger">Refuser</a></td>
+                        </form>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

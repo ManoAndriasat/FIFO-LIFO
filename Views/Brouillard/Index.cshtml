@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Brouillard</title>
+    <link rel="stylesheet" href="~/assets/dist/css/bootstrap.min.css">
+</head>
+<style>
+
+</style>
+<body style="background-color: #eaeaea;">
+
+<div class="container">
+    <br style="margin-top: 10px">
+    <center>
+        <p class="col-sm-8 secndary titre">Brouillard</p>
+        <form action="/Brouillard/Insert" method="post" class="needs-validation col-sm-8" novalidate>
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="id_article" class="form-label">Article</label>
+                    <select class="form-select" name="id_article" required>
+                        @foreach (var article in ViewBag.ListArticle)
+                        {
+                            <option value="@article.Id_article">@article.Nom</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="id_magasin" class="form-label">ID du magasin</label>
+                    <select class="form-select" name="id_magasin" required>
+                        @foreach (var magasin in ViewBag.ListMagasin)
+                        {
+                            <option value="@magasin.Id_magasin">@magasin.Nom</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="unite" class="form-label">unite</label>
+                    <select class="form-select" name="unite" required>
+                        @foreach(string unite in ViewBag.ListeUnite){            
+                                <option value="@unite">@unite</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="date_mouvement" class="form-label">Date de mouvement</label>
+                    <input type="datetime-local" class="form-control" name="date_mouvement" required>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="quantite" class="form-label">Quantité</label>
+                    <input type="number" class="form-control" name="quantite" required>
+                </div>
+            </div>
+            <br style="margin-top: 20px">
+            <center>
+                <input type="submit" class="btn btn-primary"  border="0" value="Insérer le brouillard">
+            </center>
+        </form>
+    </center>
+</div>
+
+@if(ViewBag.error != null)
+{
+    <script>
+        alert('@Html.Raw(ViewBag.error)');
+    </script>
+}
+
+</body>
+</html>

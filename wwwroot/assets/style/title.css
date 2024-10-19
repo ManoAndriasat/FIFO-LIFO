@@ -1,0 +1,28 @@
+.animated-word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter{
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: default;
+    color: #000000 ;
+    font-size: 75px;
+}
+
+.letter:hover{
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg,#373434 ,#605c5c );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo {
+    background-image: url("../logo/HasinaETU1762-logo/cover.png");
+    width: 100%;
+    height: 445px;
+    background-size: auto 100%; /* Conserve la hauteur à 445px et ajuste la largeur automatiquement */
+    background-repeat: no-repeat;
+    background-position: center; /* Centre l'image horizontalement */
+}

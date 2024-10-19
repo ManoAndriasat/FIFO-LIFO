@@ -1,0 +1,56 @@
+/home/mano/Desktop/Stock/bin/Debug/net6.0/appsettings.Development.json
+/home/mano/Desktop/Stock/bin/Debug/net6.0/appsettings.json
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Stock.staticwebassets.runtime.json
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Stock
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Stock.deps.json
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Stock.runtimeconfig.json
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Stock.dll
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Stock.pdb
+/home/mano/Desktop/Stock/bin/Debug/net6.0/Npgsql.dll
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.csproj.AssemblyReference.cache
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.GeneratedMSBuildEditorConfig.editorconfig
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.AssemblyInfoInputs.cache
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.AssemblyInfo.cs
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.csproj.CoreCompileInputs.cache
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.MvcApplicationPartsAssemblyInfo.cache
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.RazorAssemblyInfo.cache
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.RazorAssemblyInfo.cs
+/home/mano/Desktop/Stock/obj/Debug/net6.0/staticwebassets.build.json
+/home/mano/Desktop/Stock/obj/Debug/net6.0/staticwebassets.development.json
+/home/mano/Desktop/Stock/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/mano/Desktop/Stock/obj/Debug/net6.0/scopedcss/bundle/Stock.styles.css
+/home/mano/Desktop/Stock/obj/Debug/net6.0/scopedcss/projectbundle/Stock.bundle.scp.css
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.csproj.CopyComplete
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.dll
+/home/mano/Desktop/Stock/obj/Debug/net6.0/refint/Stock.dll
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.pdb
+/home/mano/Desktop/Stock/obj/Debug/net6.0/Stock.genruntimeconfig.cache
+/home/mano/Desktop/Stock/obj/Debug/net6.0/ref/Stock.dll
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.csproj.AssemblyReference.cache
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.AssemblyInfoInputs.cache
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.AssemblyInfo.cs
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.csproj.CoreCompileInputs.cache
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.MvcApplicationPartsAssemblyInfo.cache
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.RazorAssemblyInfo.cache
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.RazorAssemblyInfo.cs
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.dll
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\ref\Stock.dll
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.pdb
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\appsettings.Development.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\appsettings.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Stock.staticwebassets.runtime.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Stock.exe
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Stock.deps.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Stock.runtimeconfig.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Stock.dll
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\ref\Stock.dll
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Stock.pdb
+E:\Cours\Projet S5-S6\FIFO-LIFO\bin\Debug\net6.0\Npgsql.dll
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\staticwebassets.build.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\staticwebassets.development.json
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\scopedcss\bundle\Stock.styles.css
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\scopedcss\projectbundle\Stock.bundle.scp.css
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.csproj.CopyComplete
+E:\Cours\Projet S5-S6\FIFO-LIFO\obj\Debug\net6.0\Stock.genruntimeconfig.cache
